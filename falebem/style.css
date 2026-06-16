@@ -26,6 +26,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: var(--bg);
+  overflow-x: hidden;
   color: var(--text);
   line-height: 1.6;
   font-size: 16px;
@@ -207,6 +208,42 @@ nav {
   box-shadow: 0 20px 60px rgba(0,0,0,0.18);
 }
 
+/* FEATURE HIGHLIGHT */
+.feature-highlight { background: var(--white); }
+.feature-highlight-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.feature-highlight-text h2 { margin-bottom: 16px; }
+.feature-highlight-text p { margin-bottom: 16px; color: var(--text-secondary); }
+.feature-highlight-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+.feature-highlight-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+}
+.feature-highlight-list .check { color: var(--primary); font-weight: 700; }
+.feature-highlight-phones {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.fh-phone { width: 185px; flex-shrink: 0; }
+.fh-phone img { width: 100%; border-radius: 28px; box-shadow: 0 16px 40px rgba(30,64,175,0.18); }
+.fh-phone-secondary { width: 170px; margin-bottom: 20px; opacity: 0.88; }
+.fh-phone-secondary img { box-shadow: 0 16px 40px rgba(30,64,175,0.15); }
+
 /* HOW IT WORKS */
 .how-it-works { background: var(--white); }
 
@@ -286,10 +323,10 @@ nav {
 
 .screenshots-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 28px;
   margin-top: 48px;
-  max-width: 740px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -537,16 +574,23 @@ footer {
 .related-articles h3 { margin-bottom: 28px; }
 
 /* RESPONSIVE */
+
 @media (max-width: 768px) {
   .section { padding: 56px 0; }
   .hero-inner { grid-template-columns: 1fr; text-align: center; }
   .hero-subtitle { margin: 0 auto 32px; max-width: 100%; }
   .store-buttons { justify-content: center; }
   .hero-visual { display: none; }
+  .feature-highlight-inner { grid-template-columns: 1fr; gap: 36px; }
+  .feature-highlight-phones { max-width: 320px; margin: 0 auto; }
+  .fh-phone { width: 47%; }
+  .fh-phone-secondary { width: 43%; }
   .steps-grid { grid-template-columns: 1fr; }
   .features-grid { grid-template-columns: 1fr; }
   .articles-grid { grid-template-columns: 1fr; }
-  .screenshots-grid { grid-template-columns: repeat(2, 1fr); }
+  .screenshots-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .screenshot-item img { min-height: 0; height: auto; }
+  .screenshot-item .placeholder-screen { min-height: 240px; }
   .nav-links { display: none; }
   .footer-inner { grid-template-columns: 1fr; gap: 28px; }
   .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }

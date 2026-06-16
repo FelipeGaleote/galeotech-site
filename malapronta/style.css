@@ -185,6 +185,9 @@ nav {
   color: #fff;
 }
 .store-btn-icon { width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; }
+.store-btn-icon-apple { filter: invert(1); mix-blend-mode: screen; }
+.cta-section .store-btn-icon-apple,
+.download-cta .store-btn-icon-apple { filter: none; mix-blend-mode: normal; }
 .store-btn-text small { display: block; font-size: 0.68rem; opacity: 0.8; }
 .store-btn-text strong { font-size: 0.95rem; }
 

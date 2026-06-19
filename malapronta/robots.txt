@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://malapronta.galeotech.com.br/sitemap.xml

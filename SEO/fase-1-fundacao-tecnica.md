@@ -14,7 +14,7 @@ results no Google e para citação por IA.
 
 ### Home (`malapronta/index.html`)
 
-- [ ] **`MobileApplication`** — faz o app ser entendido como produto/app.
+- [x] **`MobileApplication`** — faz o app ser entendido como produto/app.
 ```html
 <script type="application/ld+json">
 {
@@ -31,7 +31,7 @@ results no Google e para citação por IA.
 </script>
 ```
 
-- [ ] **`FAQPage`** — já existem 6 perguntas em HTML na home; marcá-las habilita
+- [x] **`FAQPage`** — já existem 6 perguntas em HTML na home; marcá-las habilita
   rich snippet de FAQ e é o formato que LLMs citam. Replicar as 6 perguntas/respostas
   atuais no schema (manter sincronizado com o HTML).
 ```html
@@ -48,7 +48,7 @@ results no Google e para citação por IA.
 </script>
 ```
 
-- [ ] **`Organization`** (Galeo Tech) — consolida a entidade entre os 3 sites.
+- [x] **`Organization`** (Galeo Tech) — consolida a entidade entre os 3 sites.
 ```html
 <script type="application/ld+json">
 {
@@ -63,9 +63,14 @@ results no Google e para citação por IA.
 
 ### Cada artigo (`malapronta/artigos/*.html`)
 
-- [ ] **`Article`** — com `headline`, `datePublished`, `author`, `publisher`
-  (Galeo Tech), `image`. Hoje a data é só texto ("Junho de 2026"), ilegível p/ máquina.
-- [ ] **`BreadcrumbList`** — o breadcrumb visual já existe; marcar habilita
+> Nota: dos 5 artigos originais, 3 foram excluídos do site (itens-mais-subestimados,
+> o-que-levar-para-praia, como-garantir-que-guardou-tudo). Restam 2: itens-que-salvam-viagem
+> e ordem-para-guardar-na-mala. Os itens abaixo foram aplicados a esses 2.
+
+- [x] **`Article`** — com `headline`, `datePublished`, `author`, `publisher`
+  (Galeo Tech), `image`. A data textual ("Junho de 2026") agora também tem
+  `<time datetime="2026-06">` legível por máquina.
+- [x] **`BreadcrumbList`** — o breadcrumb visual já existe; marcar habilita
   breadcrumb nos resultados.
 ```html
 <script type="application/ld+json">
@@ -90,8 +95,8 @@ results no Google e para citação por IA.
 
 ## 1.2 sitemap.xml
 
-- [ ] Criar `malapronta/sitemap.xml` com a home + 5 artigos, cada um com `<lastmod>`.
-- [ ] Sem sitemap, a descoberta depende só de links internos — e a linkagem foi
+- [x] Criar `malapronta/sitemap.xml` com a home + 2 artigos atuais, cada um com `<lastmod>`.
+- [x] Sem sitemap, a descoberta depende só de links internos — e a linkagem foi
   podada (3 artigos órfãos), então isso é importante agora.
 
 ```xml
@@ -107,25 +112,25 @@ results no Google e para citação por IA.
 
 ## 1.3 robots.txt
 
-- [ ] Criar `robots.txt` permitindo crawl e apontando para o sitemap.
+- [x] Criar `robots.txt` permitindo crawl e apontando para o sitemap.
 ```
 User-agent: *
 Allow: /
-Sitemap: https://.../sitemap.xml
+Sitemap: https://malapronta.galeotech.com.br/sitemap.xml
 ```
-> Atenção: GitHub Pages serve `robots.txt` na **raiz do domínio**. Posicionar de
-> acordo com a estrutura final de hosting (ver 1.6).
+> Criado em `malapronta/robots.txt` — Cloudflare Pages serve esse projeto na raiz
+> de `malapronta.galeotech.com.br`, então o arquivo já fica na raiz do domínio.
 
 ---
 
 ## 1.4 Canonical + Open Graph em todas as páginas
 
-- [ ] Adicionar `<link rel="canonical" href="...">` em **todas** as páginas
-  (home + 5 artigos). Previne duplicação e diluição.
-- [ ] Adicionar Open Graph completo nos **5 artigos** (hoje só a home tem, e
+- [x] Adicionar `<link rel="canonical" href="...">` em **todas** as páginas
+  (home + 2 artigos). Previne duplicação e diluição.
+- [x] Adicionar Open Graph completo nos **2 artigos** (hoje só a home tem, e
   parcial): `og:title`, `og:description`, `og:type=article`, `og:url`, `og:image`.
-- [ ] Adicionar `og:image` na home (hoje ausente) — usar print do app ou banner.
-- [ ] Adicionar Twitter Cards (`twitter:card=summary_large_image`) — relevante p/
+- [x] Adicionar `og:image` na home (hoje ausente) — usar print do app ou banner.
+- [x] Adicionar Twitter Cards (`twitter:card=summary_large_image`) — relevante p/
   compartilhamento (WhatsApp/Instagram são o canal nº 1 do público BR).
 
 ---
@@ -140,13 +145,9 @@ Sitemap: https://.../sitemap.xml
 
 ## 1.6 Bloqueios / decisões pendentes
 
-- [ ] **Definir o domínio canônico de produção.** Todo schema, canonical, sitemap
-  e OG dependem da URL final. GitHub Pages suporta só **um** domínio custom por
-  repo — o destino de `malapronta.galeotech.com.br` precisa ser resolvido antes
-  de cravar URLs absolutas. (Ver memória do projeto sobre limitação de subdomínio.)
-- [ ] Enquanto o domínio não fecha, é possível adiantar tudo que é **relativo ao
-  conteúdo** (FAQPage, estrutura de Article sem URL absoluta) e deixar placeholders
-  só nas URLs absolutas.
+- [x] **Definir o domínio canônico de produção.** Resolvido: migração para Cloudflare
+  concluída, `malapronta.galeotech.com.br` é a URL de produção usada em todo
+  schema/canonical/sitemap/OG.
 
 ---
 

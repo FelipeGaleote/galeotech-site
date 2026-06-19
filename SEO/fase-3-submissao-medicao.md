@@ -9,12 +9,12 @@ decisões de conteúdo da Fase 4 sejam baseadas em dados reais — não em hipó
 
 ## 3.1 Google Search Console (GSC)
 
-- [ ] Criar/verificar a propriedade no Search Console (verificação via DNS ou
-  tag HTML no `<head>`).
-- [ ] Enviar o `sitemap.xml` (criado na Fase 1.2).
-- [ ] Solicitar indexação das páginas principais (URL Inspection → Request Indexing).
-- [ ] Conferir relatório de **Cobertura/Indexação**: garantir que home + 5 artigos
-  estão indexados, sem erros.
+- [x] Propriedade verificada no Search Console.
+- [x] `sitemap.xml` enviado (`https://malapronta.galeotech.com.br/sitemap.xml`) —
+  status "Processado", 3 páginas encontradas.
+- [x] Indexação solicitada para as 3 URLs (home + 2 artigos) via URL Inspection.
+- [ ] Conferir relatório de **Cobertura/Indexação** (aguardar alguns dias após
+  a solicitação de indexação).
 - [ ] Conferir relatório de **Enhancements** para validar os rich results
   (FAQ, Article, Breadcrumb) reconhecidos.
 
@@ -23,7 +23,8 @@ decisões de conteúdo da Fase 4 sejam baseadas em dados reais — não em hipó
 ## 3.2 Validação técnica
 
 - [ ] Rodar todas as páginas no
-  [Rich Results Test](https://search.google.com/test/rich-results).
+  [Rich Results Test](https://search.google.com/test/rich-results) — solicitado,
+  resultado ainda pendente.
 - [ ] Rodar a home no [PageSpeed Insights](https://pagespeed.web.dev/) — registrar
   baseline de Core Web Vitals (provavelmente já bom: site estático + lazy load).
 - [ ] Validar `sitemap.xml` e `robots.txt` (sem 404, sem bloqueios indevidos).
@@ -33,13 +34,12 @@ decisões de conteúdo da Fase 4 sejam baseadas em dados reais — não em hipó
 
 ## 3.3 Analytics
 
-- [ ] Confirmar se há analytics no site (GA4 ou alternativa). Se não houver,
-  decidir se adiciona — necessário para medir tráfego→conversão (clique no
-  "Baixar grátis").
-- [ ] Definir o **evento de conversão** (clique para a loja) para medir a
-  qualidade do tráfego de SEO vs. ASO.
-> **Decisão pendente do usuário:** quer instrumentar analytics no site? Qual
-> ferramenta? (Impacta privacidade/política — já existe `privacy.html`.)
+- [x] GA4 instalado nas 3 páginas do Mala Pronta (home + 2 artigos), propriedade
+  "Mala Pronta" (measurement ID `G-0Y0J58BNZZ`).
+- [x] Evento de conversão: Enhanced Measurement do GA4 rastreia automaticamente
+  cliques em links externos (outbound clicks), o que já cobre os botões de
+  Google Play/App Store sem precisar de evento customizado.
+- [x] `privacy.html` atualizado para mencionar o uso do Google Analytics no site.
 
 ---
 

@@ -195,22 +195,25 @@ nav {
 
 .phone-group {
   display: flex;
-  gap: -16px;
-  align-items: flex-end;
+  gap: 28px;
+  align-items: center;
   position: relative;
 }
 
 .phone-mockup {
   width: 220px;
   position: relative;
+  transition: transform 0.3s;
 }
 
+.phone-mockup:hover { transform: translateY(-6px); }
+
 .phone-mockup.secondary {
-  width: 200px;
-  margin-left: -24px;
-  margin-bottom: 20px;
-  opacity: 0.85;
-  filter: brightness(0.95);
+  width: 220px;
+  margin-left: 0;
+  margin-bottom: 0;
+  opacity: 1;
+  filter: none;
 }
 
 .phone-mockup img {
@@ -348,7 +351,8 @@ nav {
 .screenshot-caption {
   margin-top: 14px;
   color: rgba(255,255,255,0.65);
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* FAQ */
@@ -615,11 +619,17 @@ footer {
   .hero-inner { grid-template-columns: 1fr; text-align: center; }
   .hero-subtitle { margin: 0 auto 32px; max-width: 100%; }
   .store-buttons { justify-content: center; }
-  .hero-visual { display: none; }
+  .hero-visual { margin-top: 32px; }
+  .phone-group { flex-direction: column; align-items: center; gap: 24px; }
+  .phone-mockup, .phone-mockup.secondary { width: 220px; }
 
   .steps-grid { grid-template-columns: 1fr; }
   .features-grid { grid-template-columns: 1fr; }
   .articles-grid { grid-template-columns: 1fr; }
+  .screenshots-grid { grid-template-columns: 1fr; max-width: 280px; margin-left: auto; margin-right: auto; }
+  .screenshot-item img,
+  .screenshot-item .placeholder-screen { max-width: 260px; min-height: 480px; }
+  .screenshot-caption { font-size: 1.1rem; margin-top: 18px; }
 
   .nav-links { display: none; }
 

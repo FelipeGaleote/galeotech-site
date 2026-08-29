@@ -10,6 +10,16 @@ O planejamento de conteúdo deve equilibrar três objetivos:
 
 A estratégia não deve se limitar a artigos "o que levar para X". Conteúdos complementares à mala podem gerar autoridade, compartilhamento e oportunidades de demonstrar funcionalidades do Mala Pronta dentro de problemas reais do viajante.
 
+### Regra de cross references
+
+Sempre que um novo artigo for publicado, revisar os artigos já existentes para identificar oportunidades naturais de **links internos contextuais** para o novo conteúdo.
+
+A referência deve ser adicionada apenas quando fizer sentido para o fluxo de leitura. Priorizar links dentro do conteúdo, com texto âncora descritivo, em vez de depender apenas da seção de artigos relacionados.
+
+Quando dois artigos forem complementares ou fizerem parte de uma sequência natural da jornada do viajante, considerar referências nos dois sentidos. Evitar links artificiais apenas para aumentar a quantidade de links internos.
+
+Essa revisão de cross references faz parte do processo padrão de publicação de todo novo artigo, junto com a inclusão na home/listagem de artigos e no sitemap.
+
 ## Fila de produção
 
 | Prioridade | Artigo / arquivo | Papel principal | Status |

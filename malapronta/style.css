@@ -595,7 +595,8 @@ footer {
   margin: 52px 0;
 }
 .download-cta h3 { color: #fff; font-size: 1.4rem; margin-bottom: 8px; }
-.download-cta p { color: rgba(255,255,255,0.8); margin-bottom: 24px; font-size: 1rem; }
+.download-cta p { color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 1rem; }
+.download-cta p strong { color: inherit; }
 .download-cta .store-buttons { justify-content: center; }
 .download-cta .store-btn { background: #fff; color: var(--primary); }
 .download-cta .store-btn:hover { background: var(--primary-light); color: var(--primary); }

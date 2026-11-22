@@ -1,4 +1,4 @@
-# Artigo #7 — Como se preparar para o checkout do hotel e não esquecer nada
+# Artigo #6 — Como se preparar para o checkout do hotel e não esquecer nada
 
 - **Status:** Planejamento editorial aprovado; redação pendente
 - **Objetivo:** Ensinar um processo prático de checkout, da noite anterior à entrega das chaves, que funcione sem o aplicativo.
@@ -68,7 +68,7 @@ Partir da correria do último dia e de exemplos concretos (carregador na tomada,
 
 ## Relação com Mala Pronta
 
-- O artigo #7 é independente e centrado na preparação do checkout e na varredura física dos ambientes.
+- O artigo #6 é independente e centrado na preparação do checkout e na varredura física dos ambientes.
 - CTA contextual após a etapa 4: a varredura encontra objetos esquecidos, mas como conferir se tudo o que foi levado voltou para a mala?
 - Apresentar o Mala Pronta como apoio à conferência dos pertences, sem prometer funcionalidade específica de checkout ou retorno não verificada.
 - **Artigo #10 separado:** tutorial de como usar o Mala Pronta para conferir item por item ao arrumar a mala na volta. Verificar antes o comportamento atual dos itens já marcados na ida.

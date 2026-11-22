@@ -20,42 +20,37 @@ Quando dois artigos forem complementares ou fizerem parte de uma sequência natu
 
 Essa revisão de cross references faz parte do processo padrão de publicação de todo novo artigo, junto com a inclusão na home/listagem de artigos e no sitemap.
 
-## Fila de produção
+## Fila de produção (numeração dos artigos)
 
-| Prioridade | Artigo / arquivo | Papel principal | Status |
+Os artigos #1–#5 já foram publicados. A ordem abaixo começa no próximo artigo a produzir.
+
+| Artigo | Pauta / arquivo | Papel principal | Status |
 |---|---|---|---|
-| 1 | O que fazer no dia anterior à viagem | Utilidade + conversão | A estruturar |
-| 2 | [como-fazer-lista-de-viagem.md](como-fazer-lista-de-viagem.md) | Conversão forte + SEO | A refinar |
-| 3 | [preparacao-checkout.md](preparacao-checkout.md) | Utilidade + preparação para checkout | Planejamento aprovado |
-| 4 | Como preparar o celular antes de viajar | Utilidade + SEO + autoridade | A estruturar |
-| 5 | [camping.md](camping.md) | SEO long-tail + conversão | A refinar |
-| 6 | [como-usar-o-mala-pronta.md](como-usar-o-mala-pronta.md) | Educação de produto + retenção | A refinar |
+| #6 | [Como se preparar para o checkout do hotel e não esquecer nada](preparacao-checkout.md) | Utilidade + preparação para checkout | Planejamento aprovado; próximo a redigir |
+| #7 | [Como fazer lista de viagem](como-fazer-lista-de-viagem.md) | Conversão + SEO | A refinar |
+| #8 | [O que levar para camping](camping.md) | SEO de nicho + conversão | A refinar |
+| #9 | [Como usar o Mala Pronta](como-usar-o-mala-pronta.md) | Educação de produto + retenção | A refinar |
+| #10 | Como usar o Mala Pronta para conferir item por item no checkout | Aplicação prática do app na viagem de volta | A planejar |
 
-## Contexto das novas pautas
+## Contexto das próximas pautas
 
-### 1. O que fazer no dia anterior à viagem
+### #6. Como se preparar para o checkout do hotel e não esquecer nada
 
-Diferente do artigo já publicado sobre o que conferir imediatamente antes de sair de casa. O foco aqui é a **preparação com antecedência**, incluindo tarefas como abastecer o carro, conferir pneus/combustível, fazer check-in, conferir horários e terminal, separar documentos, carregar celular/power bank, preparar lanche e água, separar a roupa do dia seguinte, conferir previsão do tempo e terminar a mala.
+Planejamento detalhado em [preparacao-checkout.md](preparacao-checkout.md). Ensinar a preparação desde a noite anterior, uma bolsa com itens usados pela manhã, a varredura da acomodação e a entrega das chaves. Deve ser útil sem o aplicativo.
 
-**Gancho para o app:** o leitor está exatamente no momento de finalizar a bagagem; apresentar o Mala Pronta como forma rápida de gerar a lista personalizada e acompanhar o que já foi guardado.
+**Gancho para o app:** complementar a revisão física com a conferência dos pertences; a demonstração item por item fica para o artigo #10.
 
-### 3. Como se preparar para o checkout do hotel e não esquecer nada
+### #7. Como fazer lista de viagem
 
-Planejamento detalhado em [preparacao-checkout.md](preparacao-checkout.md). O artigo ensina a preparação desde a noite anterior, uma bolsa com itens que ainda serão usados pela manhã, a conferência sistemática dos ambientes e a entrega das chaves. Deve ser útil independentemente do aplicativo.
+Pauta voltada a intenção de busca e conversão natural. Detalhes em [como-fazer-lista-de-viagem.md](como-fazer-lista-de-viagem.md).
 
-**Gancho para o app:** complementar a revisão física com a conferência dos pertences. O tutorial de conferência item por item usando o Mala Pronta será um artigo separado (#10).
+### #9. Como usar o Mala Pronta
 
-### 4. Como preparar o celular antes de viajar
+Guia oficial permanente do produto, com capturas atualizadas. Ensinar criação da viagem, geração e personalização da lista e marcação de itens. Deve ajudar ativação e retenção.
 
-Cobrir internet e pacote de dados/roaming/eSIM, bateria e power bank, mapas e trajetos offline, passagens e reservas, armazenamento, documentos digitais, aplicativos bancários e outros recursos necessários durante a viagem.
+### #10. Conferência item por item no checkout com o Mala Pronta
 
-**Gancho para o app:** secundário. O objetivo principal é utilidade, SEO e autoridade editorial; nem todo artigo precisa converter agressivamente.
-
-### 6. Como usar o Mala Pronta
-
-A posição 6 reflete **custo de produção**, não baixa importância estratégica. O artigo exige capturas atualizadas das telas e deve ser produzido com qualidade como um **guia oficial permanente do produto**.
-
-Além de divulgação, ele deve funcionar como conteúdo de educação de produto: ensinar criação da viagem, geração e personalização da lista, marcação dos itens conforme são guardados e demais recursos relevantes. O objetivo é melhorar ativação e capacitação do usuário e, por consequência, contribuir para retenção, satisfação e melhores avaliações nas lojas.
+Tutorial específico para a volta, complementar ao artigo #6. Antes de redigir, validar como a versão atual do app lida com itens já marcados na ida.
 
 ## Publicados
 

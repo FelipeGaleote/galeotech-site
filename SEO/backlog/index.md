@@ -26,7 +26,7 @@ Essa revisão de cross references faz parte do processo padrão de publicação 
 |---|---|---|---|
 | 1 | O que fazer no dia anterior à viagem | Utilidade + conversão | A estruturar |
 | 2 | [como-fazer-lista-de-viagem.md](como-fazer-lista-de-viagem.md) | Conversão forte + SEO | A refinar |
-| 3 | O que conferir no quarto antes do checkout | Utilidade + demonstração de produto | A estruturar |
+| 3 | [preparacao-checkout.md](preparacao-checkout.md) | Utilidade + preparação para checkout | Planejamento aprovado |
 | 4 | Como preparar o celular antes de viajar | Utilidade + SEO + autoridade | A estruturar |
 | 5 | [camping.md](camping.md) | SEO long-tail + conversão | A refinar |
 | 6 | [como-usar-o-mala-pronta.md](como-usar-o-mala-pronta.md) | Educação de produto + retenção | A refinar |
@@ -39,11 +39,11 @@ Diferente do artigo já publicado sobre o que conferir imediatamente antes de sa
 
 **Gancho para o app:** o leitor está exatamente no momento de finalizar a bagagem; apresentar o Mala Pronta como forma rápida de gerar a lista personalizada e acompanhar o que já foi guardado.
 
-### 3. O que conferir no quarto antes do checkout
+### 3. Como se preparar para o checkout do hotel e não esquecer nada
 
-Ensinar uma varredura sistemática do quarto — cama, tomadas, criados-mudos, armários, banheiro, cofre, geladeira, varanda e outros pontos onde objetos costumam ficar esquecidos.
+Planejamento detalhado em [preparacao-checkout.md](preparacao-checkout.md). O artigo ensina a preparação desde a noite anterior, uma bolsa com itens que ainda serão usados pela manhã, a conferência sistemática dos ambientes e a entrega das chaves. Deve ser útil independentemente do aplicativo.
 
-**Gancho para o app:** usar a funcionalidade de marcar itens da lista conforme eles voltam para a mala, transformando uma feature do Mala Pronta em parte prática do método ensinado pelo artigo.
+**Gancho para o app:** complementar a revisão física com a conferência dos pertences. O tutorial de conferência item por item usando o Mala Pronta será um artigo separado (#10).
 
 ### 4. Como preparar o celular antes de viajar
 
